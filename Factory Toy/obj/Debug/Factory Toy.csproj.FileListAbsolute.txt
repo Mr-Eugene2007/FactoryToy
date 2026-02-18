@@ -1,0 +1,78 @@
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Factory Toy.exe.config
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Factory Toy.exe
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Factory Toy.pdb
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Dapper.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Npgsql.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Buffers.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Collections.Immutable.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Memory.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Text.Json.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Threading.Channels.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.ValueTuple.dll
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Dapper.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\Npgsql.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Buffers.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Collections.Immutable.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Memory.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Text.Json.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Threading.Channels.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\bin\Debug\System.ValueTuple.xml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.csproj.AssemblyReference.cache
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.csproj.SuggestedBindingRedirects.cache
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.exe.config
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\App.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy_MarkupCompile.cache
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy_MarkupCompile.lref
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.g.resources
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory_Toy.Properties.Resources.resources
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.csproj.GenerateResource.cache
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.csproj.CoreCompileInputs.cache
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory .EE0F8CDD.Up2Date
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.exe
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.pdb
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\LoginWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\AdminWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ManagerWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\WorkerWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\AdminWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ManagerWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\WorkerWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductEditWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductsWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductEditWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductsWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UserEditWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UsersWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UserEditWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UsersWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemEditWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemsWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemEditWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemsWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ClientWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductionManagerWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ClientWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductionManagerWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderEditWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrdersWindow.baml
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderEditWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrdersWindow.g.cs

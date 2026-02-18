@@ -1,0 +1,26 @@
+﻿<Window x:Class="Factory_Toy.Views.ProductionManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Производственный менеджер" Height="300" Width="400"
+        WindowStartupLocation="CenterScreen">
+
+    <StackPanel Margin="20" VerticalAlignment="Center">
+
+        <TextBlock Text="Производственный менеджер"
+                   FontSize="22"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   Margin="0 0 0 20"/>
+
+        <Button Content="Позиции заказа"
+                Height="40"
+                Margin="0 0 0 10"
+                Click="OrderItems_Click"/>
+
+        <Button Content="Товары"
+                Height="40"
+                Margin="0 0 0 10"
+                Click="Products_Click"/>
+
+    </StackPanel>
+</Window>

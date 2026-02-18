@@ -1,0 +1,63 @@
+﻿<Window x:Class="Factory_Toy.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Авторизация" Height="260" Width="350"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Логин -->
+        <TextBlock Text="Логин:" FontSize="16"/>
+        <TextBox x:Name="LoginBox" Grid.Row="1" Height="30" Margin="0,5,0,15"/>
+
+        <!-- Пароль -->
+        <TextBlock Text="Пароль:" Grid.Row="2" FontSize="16"/>
+
+        <!-- Контейнер для PasswordBox + TextBox + кнопки -->
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Скрытый пароль -->
+            <PasswordBox x:Name="PasswordBox"
+                         Height="30"
+                         Margin="0,5,0,15"
+                         Grid.Column="0"
+                         PasswordChanged="PasswordBox_PasswordChanged"/>
+
+            <!-- Видимый пароль -->
+            <TextBox x:Name="PasswordText"
+                     Height="30"
+                     Margin="0,5,0,15"
+                     Grid.Column="0"
+                     Visibility="Collapsed"
+                     TextChanged="PasswordText_TextChanged"/>
+
+            <!-- Кнопка показать/скрыть -->
+            <Button x:Name="ShowPasswordBtn"
+                    Content="👁"
+                    Width="40"
+                    Height="30"
+                    Margin="5,5,0,15"
+                    Grid.Column="1"
+                    Click="ShowPasswordBtn_Click"/>
+        </Grid>
+
+        <!-- Кнопка входа -->
+        <Button Content="Войти"
+                Grid.Row="4"
+                Height="35"
+                Background="#4CAF50"
+                Foreground="White"
+                Click="Login_Click"/>
+    </Grid>
+</Window>
