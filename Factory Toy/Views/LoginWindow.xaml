@@ -1,63 +1,39 @@
-﻿<Window x:Class="Factory_Toy.LoginWindow"
+﻿<Window x:Class="Factory_Toy.Views.LoginWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Авторизация" Height="260" Width="350"
+        Title="Вход"
+        Height="350" Width="400"
+        Background="{StaticResource BackgroundColor}"
         WindowStartupLocation="CenterScreen">
 
-    <Grid Margin="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+    <Border Background="{StaticResource CardColor}"
+            CornerRadius="12"
+            Padding="25"
+            Margin="20"
+            Effect="{StaticResource DropShadow}">
 
-        <!-- Логин -->
-        <TextBlock Text="Логин:" FontSize="16"/>
-        <TextBox x:Name="LoginBox" Grid.Row="1" Height="30" Margin="0,5,0,15"/>
+        <StackPanel>
 
-        <!-- Пароль -->
-        <TextBlock Text="Пароль:" Grid.Row="2" FontSize="16"/>
+            <TextBlock Text="Авторизация"
+                       FontSize="26"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0 0 0 20"/>
 
-        <!-- Контейнер для PasswordBox + TextBox + кнопки -->
-        <Grid Grid.Row="3">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
+            <TextBlock Text="Логин"/>
+            <TextBox x:Name="LoginBox"/>
 
-            <!-- Скрытый пароль -->
+            <TextBlock Text="Пароль"/>
             <PasswordBox x:Name="PasswordBox"
-                         Height="30"
-                         Margin="0,5,0,15"
-                         Grid.Column="0"
-                         PasswordChanged="PasswordBox_PasswordChanged"/>
+                         Margin="0 5 0 15"
+                         Padding="6"
+                         FontSize="16"/>
 
-            <!-- Видимый пароль -->
-            <TextBox x:Name="PasswordText"
-                     Height="30"
-                     Margin="0,5,0,15"
-                     Grid.Column="0"
-                     Visibility="Collapsed"
-                     TextChanged="PasswordText_TextChanged"/>
+            <Button Content="Войти"
+                    Height="40"
+                    Click="Login_Click"/>
 
-            <!-- Кнопка показать/скрыть -->
-            <Button x:Name="ShowPasswordBtn"
-                    Content="👁"
-                    Width="40"
-                    Height="30"
-                    Margin="5,5,0,15"
-                    Grid.Column="1"
-                    Click="ShowPasswordBtn_Click"/>
-        </Grid>
+        </StackPanel>
 
-        <!-- Кнопка входа -->
-        <Button Content="Войти"
-                Grid.Row="4"
-                Height="35"
-                Background="#4CAF50"
-                Foreground="White"
-                Click="Login_Click"/>
-    </Grid>
+    </Border>
 </Window>

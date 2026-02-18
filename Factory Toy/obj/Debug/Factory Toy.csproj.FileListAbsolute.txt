@@ -76,3 +76,4 @@ C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderEditWin
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrdersWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderEditWindow.g.cs
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrdersWindow.g.cs
+C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\App.baml

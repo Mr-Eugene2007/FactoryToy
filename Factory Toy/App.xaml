@@ -4,6 +4,69 @@
              StartupUri="Views/LoginWindow.xaml">
 
     <Application.Resources>
-         
+        <!-- Основные цвета -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#2D89EF"/>
+        <SolidColorBrush x:Key="PrimaryDark" Color="#1B5FA7"/>
+        <SolidColorBrush x:Key="BackgroundColor" Color="#F4F4F4"/>
+        <SolidColorBrush x:Key="CardColor" Color="#FFFFFF"/>
+
+        <!-- Стиль кнопок -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Margin" Value="0 5 0 5"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                            CornerRadius="6">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource PrimaryDark}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- Стиль DataGrid -->
+        <Style TargetType="DataGrid">
+            <Setter Property="RowHeight" Value="35"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="GridLinesVisibility" Value="None"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="AutoGenerateColumns" Value="True"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+
+        <!-- Стиль TextBox -->
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0 5 0 15"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <!-- Стиль TextBlock -->
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Margin" Value="0 5 0 0"/>
+        </Style>
+
+        <DropShadowEffect x:Key="DropShadow"
+                  BlurRadius="10"
+                  ShadowDepth="2"
+                  Opacity="0.3"/>
+
     </Application.Resources>
 </Application>
