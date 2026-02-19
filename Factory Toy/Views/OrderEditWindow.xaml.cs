@@ -23,31 +23,31 @@ namespace Factory_Toy.Views
             _order = order;
             _isEdit = true;
 
-            OrderDateBox.Text = order.OrderDate.ToString("yyyy-MM-dd HH:mm");
-            UserBox.Text = order.IdUser.ToString();
-            TotalBox.Text = order.TotalAmount.ToString();
+            OrderDateBox.Text = order.OrderDate.ToString("yyyy-MM-dd");
+            UserIdBox.Text = order.IdUser.ToString();
+            TotalAmountBox.Text = order.TotalAmount.ToString();
             PrepaymentBox.Text = order.Prepayment.ToString();
             StatusBox.Text = order.Status;
-            DesiredBox.Text = order.DesiredDate?.ToString("yyyy-MM-dd");
-            ActualBox.Text = order.ActualDate?.ToString("yyyy-MM-dd");
-            AddressBox.Text = order.DeliveryAddress;
+            DesiredDateBox.Text = order.DesiredDate?.ToString("yyyy-MM-dd");
+            ActualDateBox.Text = order.ActualDate?.ToString("yyyy-MM-dd");
+            DeliveryAddressBox.Text = order.DeliveryAddress;
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
             if (!DateTime.TryParse(OrderDateBox.Text, out DateTime orderDate))
             {
-                MessageBox.Show("Неверная дата заказа");
+                MessageBox.Show("Дата заказа неверна");
                 return;
             }
 
-            if (!int.TryParse(UserBox.Text, out int userId))
+            if (!int.TryParse(UserIdBox.Text, out int userId))
             {
                 MessageBox.Show("ID пользователя должно быть числом");
                 return;
             }
 
-            if (!decimal.TryParse(TotalBox.Text, out decimal total))
+            if (!decimal.TryParse(TotalAmountBox.Text, out decimal total))
             {
                 MessageBox.Show("Сумма должна быть числом");
                 return;
@@ -59,21 +59,22 @@ namespace Factory_Toy.Views
                 return;
             }
 
+            DateTime? desired = null;
+            if (DateTime.TryParse(DesiredDateBox.Text, out DateTime d))
+                desired = d;
+
+            DateTime? actual = null;
+            if (DateTime.TryParse(ActualDateBox.Text, out DateTime a))
+                actual = a;
+
             _order.OrderDate = orderDate;
             _order.IdUser = userId;
             _order.TotalAmount = total;
             _order.Prepayment = prepay;
             _order.Status = StatusBox.Text;
-            if (DateTime.TryParse(DesiredBox.Text, out DateTime desired))
-                _order.DesiredDate = desired;
-            else
-                _order.DesiredDate = null;
-
-            if (DateTime.TryParse(ActualBox.Text, out DateTime actual))
-                _order.ActualDate = actual;
-            else
-                _order.ActualDate = null;
-            _order.DeliveryAddress = AddressBox.Text;
+            _order.DesiredDate = desired;
+            _order.ActualDate = actual;
+            _order.DeliveryAddress = DeliveryAddressBox.Text;
 
             if (_isEdit)
                 OrderService.Update(_order);

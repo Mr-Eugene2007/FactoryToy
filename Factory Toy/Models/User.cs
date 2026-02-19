@@ -15,6 +15,7 @@ namespace Factory_Toy.Models
         public string Email { get; set; }
         public string Phone { get; set; }
         public int IdRole { get; set; }
+        public string RoleName { get; set; }
     }
 
 }

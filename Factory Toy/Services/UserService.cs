@@ -12,7 +12,19 @@ namespace Factory_Toy.Services
             using (var conn = Database.GetConnection())
             {
                 conn.Open();
-                return conn.Query<User>("SELECT * FROM users ORDER BY iduser").ToList();
+                return conn.Query<User>(
+                    @"SELECT 
+                        u.iduser,
+                        u.login,
+                        u.fullname,
+                        u.email,
+                        u.phone,
+                        u.idrole,
+                        r.rolename AS RoleName
+                      FROM users u
+                      LEFT JOIN roles r ON u.idrole = r.idrole
+                      ORDER BY u.iduser"
+                ).ToList();
             }
         }
 

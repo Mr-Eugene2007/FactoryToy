@@ -20,5 +20,13 @@ namespace Factory_Toy.Views
             var win = new OrdersWindow();
             win.ShowDialog();
         }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            var login = new LoginWindow();
+            login.Show();
+
+            this.Close();
+        }
     }
 }

@@ -1,7 +1,10 @@
-﻿using System;
-using System.Windows;
+﻿using Dapper;
 using Factory_Toy.Models;
 using Factory_Toy.Services;
+using System;
+using System.Linq;
+using System.Windows;
+using System.Windows.Controls;
 
 namespace Factory_Toy.Views
 {
@@ -15,6 +18,8 @@ namespace Factory_Toy.Views
             InitializeComponent();
             _product = new Product();
             _isEdit = false;
+
+            LoadCategories();
         }
 
         public ProductEditWindow(Product product)
@@ -23,26 +28,38 @@ namespace Factory_Toy.Views
             _product = product;
             _isEdit = true;
 
+            LoadCategories();
+
             NameBox.Text = product.Name;
             DescriptionBox.Text = product.Description;
-            CategoryBox.Text = product.IdCategory.ToString();
+
+            CategoryCombo.SelectedValue = product.IdCategory;
+
             RetailPriceBox.Text = product.RetailPrice.ToString();
             CostPriceBox.Text = product.CostPrice.ToString();
             StockBox.Text = product.StockQuantity.ToString();
-            StatusBox.Text = product.Status;
+
+            StatusCombo.Text = product.Status;
+        }
+
+        private void LoadCategories()
+        {
+            using (var conn = Database.GetConnection())
+            {
+                conn.Open();
+                var categories = conn.Query<Category>(
+                    "SELECT idcategory, categoryname FROM productcategories"
+                ).ToList();
+
+                CategoryCombo.ItemsSource = categories;
+            }
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(NameBox.Text))
+            if (CategoryCombo.SelectedValue == null)
             {
-                MessageBox.Show("Название обязательно");
-                return;
-            }
-
-            if (!int.TryParse(CategoryBox.Text, out int category))
-            {
-                MessageBox.Show("Категория должна быть числом");
+                MessageBox.Show("Выберите категорию");
                 return;
             }
 
@@ -66,11 +83,13 @@ namespace Factory_Toy.Views
 
             _product.Name = NameBox.Text;
             _product.Description = DescriptionBox.Text;
-            _product.IdCategory = category;
+            _product.IdCategory = (int)CategoryCombo.SelectedValue;
             _product.RetailPrice = retail;
             _product.CostPrice = cost;
             _product.StockQuantity = stock;
-            _product.Status = StatusBox.Text;
+
+            if (StatusCombo.SelectedItem is ComboBoxItem item)
+                _product.Status = item.Content.ToString();
 
             if (_isEdit)
                 ProductService.Update(_product);

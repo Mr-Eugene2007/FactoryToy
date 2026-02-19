@@ -1,46 +1,77 @@
 ﻿<Window x:Class="Factory_Toy.Views.OrderItemEditWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Редактирование позиции заказа" Height="450" Width="400"
+        Title="Редактирование позиции заказа"
+        SizeToContent="WidthAndHeight"
+        MinWidth="600"
         Background="{StaticResource BackgroundColor}"
         WindowStartupLocation="CenterScreen">
+
     <Border Background="{StaticResource CardColor}"
-        CornerRadius="10"
-        Padding="15"
-        Margin="10"
-        Effect="{StaticResource DropShadow}">
+            CornerRadius="10"
+            Padding="15"
+            Margin="10"
+            Effect="{StaticResource DropShadow}">
 
-        <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
 
-        <TextBlock Text="ID заказа:"/>
-        <TextBox x:Name="OrderBox" Grid.Row="1"/>
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- 0 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 1 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 2 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 3 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 4 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 5 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 6 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 7 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 8 -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- 9 -->
+                </Grid.RowDefinitions>
 
-        <TextBlock Text="ID товара:" Grid.Row="2"/>
-        <TextBox x:Name="ProductBox" Grid.Row="3"/>
+                <!-- ID заказа -->
+                <TextBlock Text="ID заказа:" Grid.Row="0"/>
+                <TextBox x:Name="OrderBox" Grid.Row="1"/>
 
-        <TextBlock Text="Количество:" Grid.Row="4"/>
-        <TextBox x:Name="QuantityBox" Grid.Row="5"/>
+                <!-- ID товара -->
+                <TextBlock Text="ID товара:" Grid.Row="2"/>
+                <TextBox x:Name="ProductBox" Grid.Row="3"/>
 
-        <CheckBox x:Name="CustomCheck" Content="Индивидуальный заказ" Grid.Row="6"/>
+                <!-- Количество -->
+                <TextBlock Text="Количество:" Grid.Row="4"/>
+                <TextBox x:Name="QuantityBox" Grid.Row="5"/>
 
-        <TextBlock Text="Описание:" Grid.Row="7"/>
-        <TextBox x:Name="DescriptionBox" Grid.Row="8"/>
+                <!-- Индивидуальный заказ -->
+                <CheckBox x:Name="CustomCheck"
+                          Content="Индивидуальный заказ"
+                          Grid.Row="6"/>
 
-        <TextBlock Text="Эскиз (путь к файлу):" Grid.Row="9"/>
-        <TextBox x:Name="SketchBox" Grid.Row="10"/>
+                <!-- Описание -->
+                <TextBlock Text="Описание индивидуального заказа:" Grid.Row="7"/>
+                <TextBox x:Name="DescriptionBox"
+                         Grid.Row="8"
+                         Height="70"
+                         TextWrapping="Wrap"
+                         AcceptsReturn="True"/>
 
-        <Button Content="Сохранить" Grid.Row="11" Height="30" Margin="0 10 0 0"
-                Click="Save_Click"/>
-    </Grid>
+                <!-- Кнопка -->
+                <Button Content="Сохранить"
+                        Grid.Row="9"
+                        Height="35"
+                        Margin="0 15 0 0"
+                        Click="Save_Click"/>
+            </Grid>
+
+        </ScrollViewer>
     </Border>
-
 </Window>

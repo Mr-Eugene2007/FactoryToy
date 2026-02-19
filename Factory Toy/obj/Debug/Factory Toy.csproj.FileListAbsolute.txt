@@ -40,7 +40,6 @@ C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.csproj
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.exe.config
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\App.g.cs
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy_MarkupCompile.cache
-C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy_MarkupCompile.lref
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.g.resources
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory_Toy.Properties.Resources.resources
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Factory Toy.csproj.GenerateResource.cache
@@ -52,10 +51,8 @@ C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\LoginWindow.
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\AdminWindow.g.cs
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\LoginWindow.g.cs
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ManagerWindow.g.cs
-C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\WorkerWindow.g.cs
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\AdminWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ManagerWindow.baml
-C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\WorkerWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductEditWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductsWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductEditWindow.g.cs

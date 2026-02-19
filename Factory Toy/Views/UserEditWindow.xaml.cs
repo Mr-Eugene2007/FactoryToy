@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 using System.Windows;
+using System.Windows.Input;
+using Dapper;
 using Factory_Toy.Models;
 using Factory_Toy.Services;
 
@@ -15,6 +19,8 @@ namespace Factory_Toy.Views
             InitializeComponent();
             _user = new User();
             _isEdit = false;
+
+            LoadRoles();
         }
 
         public UserEditWindow(User user)
@@ -23,12 +29,28 @@ namespace Factory_Toy.Views
             _user = user;
             _isEdit = true;
 
+            LoadRoles();
+
             LoginBox.Text = user.Login;
             PasswordBox.Text = user.Password;
-            FullNameBox.Text = user.FullName;
+            NameBox.Text = user.FullName;
             EmailBox.Text = user.Email;
             PhoneBox.Text = user.Phone;
-            RoleBox.Text = user.IdRole.ToString();
+
+            RoleCombo.SelectedValue = user.IdRole;
+        }
+
+        private void LoadRoles()
+        {
+            using (var conn = Database.GetConnection())
+            {
+                conn.Open();
+                var roles = conn.Query<Role>(
+                    "SELECT idrole, rolename FROM roles"
+                ).ToList();
+
+                RoleCombo.ItemsSource = roles;
+            }
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
@@ -39,18 +61,19 @@ namespace Factory_Toy.Views
                 return;
             }
 
-            if (!int.TryParse(RoleBox.Text, out int role))
+            if (RoleCombo.SelectedValue == null)
             {
-                MessageBox.Show("ID роли должно быть числом");
+                MessageBox.Show("Выберите роль");
                 return;
             }
 
             _user.Login = LoginBox.Text;
             _user.Password = PasswordBox.Text;
-            _user.FullName = FullNameBox.Text;
+            _user.FullName = NameBox.Text;
             _user.Email = EmailBox.Text;
-            _user.Phone = PhoneBox.Text;
-            _user.IdRole = role;
+            _user.Phone = PhoneBox.Text; // телефон сохраняем
+
+            _user.IdRole = (int)RoleCombo.SelectedValue;
 
             if (_isEdit)
                 UserService.Update(_user);
@@ -59,6 +82,42 @@ namespace Factory_Toy.Views
 
             DialogResult = true;
             Close();
+        }
+
+        // ===== МАСКА ТЕЛЕФОНА =====
+
+        private void PhoneBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            // Разрешаем только цифры
+            e.Handled = !Regex.IsMatch(e.Text, @"\d");
+        }
+
+        private void PhoneBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            string digits = new string(PhoneBox.Text.Where(char.IsDigit).ToArray());
+
+            if (digits.StartsWith("7"))
+                digits = digits.Substring(1);
+
+            if (digits.Length > 10)
+                digits = digits.Substring(0, 10);
+
+            string formatted = "+7";
+
+            if (digits.Length > 0)
+                formatted += " (" + digits.Substring(0, Math.Min(3, digits.Length));
+
+            if (digits.Length >= 3)
+                formatted += ") " + digits.Substring(3, Math.Min(3, digits.Length - 3));
+
+            if (digits.Length >= 6)
+                formatted += "-" + digits.Substring(6, Math.Min(2, digits.Length - 6));
+
+            if (digits.Length >= 8)
+                formatted += "-" + digits.Substring(8, Math.Min(2, digits.Length - 8));
+
+            PhoneBox.Text = formatted;
+            PhoneBox.SelectionStart = PhoneBox.Text.Length;
         }
     }
 }

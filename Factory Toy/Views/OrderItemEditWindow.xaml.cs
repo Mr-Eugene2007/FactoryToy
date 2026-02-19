@@ -28,7 +28,6 @@ namespace Factory_Toy.Views
             QuantityBox.Text = item.Quantity.ToString();
             CustomCheck.IsChecked = item.IsCustom;
             DescriptionBox.Text = item.CustomDescription;
-            SketchBox.Text = item.CustomSketch;
         }
 
         private void Save_Click(object sender, RoutedEventArgs e)
@@ -56,7 +55,6 @@ namespace Factory_Toy.Views
             _item.Quantity = qty;
             _item.IsCustom = CustomCheck.IsChecked == true;
             _item.CustomDescription = DescriptionBox.Text;
-            _item.CustomSketch = SketchBox.Text;
 
             if (_isEdit)
                 OrderItemService.Update(_item);

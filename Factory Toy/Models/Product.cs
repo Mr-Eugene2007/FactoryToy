@@ -16,6 +16,9 @@ namespace Factory_Toy.Models
         public decimal CostPrice { get; set; }
         public int StockQuantity { get; set; }
         public string Status { get; set; }
+
+        public string CategoryName { get; set; }
+
     }
 
 }

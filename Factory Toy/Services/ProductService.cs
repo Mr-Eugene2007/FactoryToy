@@ -16,7 +16,21 @@ namespace Factory_Toy.Services
             using (var conn = Database.GetConnection())
             {
                 conn.Open();
-                return conn.Query<Product>("SELECT * FROM products ORDER BY idproduct").ToList();
+                return conn.Query<Product>(
+                    @"SELECT 
+                p.idproduct,
+                p.name,
+                p.description,
+                p.idcategory,
+                p.retailprice,
+                p.costprice,
+                p.stockquantity,
+                p.status,
+                c.categoryname AS CategoryName
+              FROM products p
+              LEFT JOIN productcategories c ON p.idcategory = c.idcategory
+              ORDER BY p.idproduct"
+                ).ToList();
             }
         }
 

@@ -28,5 +28,14 @@ namespace Factory_Toy.Views
             win.ShowDialog();
 
         }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            var login = new LoginWindow();
+            login.Show();
+
+            this.Close();
+        }
+
     }
 }
