@@ -20,8 +20,8 @@ namespace Factory_Toy.Views
 
         private void Orders_Click(object sender, RoutedEventArgs e)
         {
-            var win = new OrdersWindow();
-            win.ShowDialog();
+            new ClientOrdersWindow(_currentUser).ShowDialog();
+
         }
 
         private void Logout_Click(object sender, RoutedEventArgs e)
