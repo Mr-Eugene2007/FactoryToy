@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\App.xaml
-13109681248
+11-437483619
 
-31-594003263
+29-1245891112
 35-1618494989
-Views\AdminWindow.xaml;Views\ClientWindow.xaml;Views\LoginWindow.xaml;Views\ManagerWindow.xaml;Views\OrderEditWindow.xaml;Views\OrderItemEditWindow.xaml;Views\OrderItemsWindow.xaml;Views\OrdersWindow.xaml;Views\ProductEditWindow.xaml;Views\ProductionManagerWindow.xaml;Views\ProductsWindow.xaml;Views\UserEditWindow.xaml;Views\UsersWindow.xaml;
+Views\AdminWindow.xaml;Views\ClientWindow.xaml;Views\LoginWindow.xaml;Views\ManagerWindow.xaml;Views\OrderEditWindow.xaml;Views\OrdersWindow.xaml;Views\ProductEditWindow.xaml;Views\ProductionManagerWindow.xaml;Views\ProductsWindow.xaml;Views\UserEditWindow.xaml;Views\UsersWindow.xaml;
 
 False
 

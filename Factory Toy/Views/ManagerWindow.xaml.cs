@@ -1,12 +1,21 @@
-﻿using System.Windows;
+﻿using Factory_Toy.Models;
+using System.Windows;
 
 namespace Factory_Toy.Views
 {
     public partial class ManagerWindow : Window
     {
-        public ManagerWindow()
+        private User _currentUser;
+
+        public ManagerWindow(User user)
         {
             InitializeComponent();
+            _currentUser = user;
+        }
+
+        private void Products_Click(object sender, RoutedEventArgs e)
+        {
+            new ProductsWindow(_currentUser).ShowDialog();
         }
 
         private void Orders_Click(object sender, RoutedEventArgs e)
@@ -15,17 +24,6 @@ namespace Factory_Toy.Views
             win.ShowDialog();
         }
 
-        private void OrderItems_Click(object sender, RoutedEventArgs e)
-        {
-            var win = new OrderItemsWindow();
-            win.ShowDialog();
-        }
-
-        private void Products_Click(object sender, RoutedEventArgs e)
-        {
-            var win = new ProductsWindow();
-            win.ShowDialog();
-        }
 
         private void Logout_Click(object sender, RoutedEventArgs e)
         {

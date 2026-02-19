@@ -3,76 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\velts\\source\\repos\\Factory Toy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\usereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\usereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\usereditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\usereditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\userswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\userswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\orderitemeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\orderitemeditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\views\\ordereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\ordereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\orderitemswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\orderitemswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\productswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\productswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\loginwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\loginwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\orderswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\orderswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\productionmanagerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\productionmanagerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\productionmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\productionmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\views\\productionmanagerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\productionmanagerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\managerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -83,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\managerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\views\\clientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\clientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\clientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
@@ -91,7 +39,7 @@
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\views\\adminwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\adminwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\adminwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
@@ -99,28 +47,72 @@
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\orderitemeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\orderitemeditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|c:\\users\\velts\\source\\repos\\factory toy\\factory toy\\views\\productswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\productswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\ordereditwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\ordereditwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\productswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\productswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\orderswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\orderswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\obj\\Debug\\Views\\OrderItemsWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Factory Toy\\obj\\Debug\\Views\\OrderItemsWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\orderswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\orderswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\orderitemswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\orderitemswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\producteditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\usereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\usereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\userswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\userswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\ordereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\ordereditwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\usereditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\usereditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\producteditwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\ordereditwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\ordereditwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\obj\\Debug\\Views\\OrderItemsWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Factory Toy\\obj\\Debug\\Views\\OrderItemsWindow.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -133,10 +125,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\views\\loginwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|solutionrelative:factory toy\\views\\loginwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FCF5A96-A4FD-4C85-8039-326F8913BB58}|Factory Toy\\Factory Toy.csproj|C:\\Users\\velts\\source\\repos\\Factory Toy\\factory toy\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -174,43 +162,155 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Role.cs",
-              "RelativeToolTip": "Factory Toy\\Models\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ProductsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductsWindow.xaml.cs",
+              "RelativeToolTip": "Factory Toy\\Views\\ProductsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T10:09:39.055Z",
+              "WhenOpened": "2026-02-19T14:53:39.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Category.cs",
-              "RelativeToolTip": "Factory Toy\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T10:05:45.14Z",
+              "Title": "ProductionManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductionManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\ProductionManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T23:25:45.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
+              "Title": "ProductionManagerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductionManagerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml.cs*",
+              "RelativeToolTip": "Factory Toy\\Views\\ProductionManagerWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T09:38:23.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ClientWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml.cs*",
+              "RelativeToolTip": "Factory Toy\\Views\\ClientWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T09:37:23.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T21:27:16.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml.cs*",
+              "RelativeToolTip": "Factory Toy\\Views\\LoginWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T21:27:39.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ClientWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\ClientWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T23:24:39.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\AdminWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T22:16:33.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml.cs*",
+              "RelativeToolTip": "Factory Toy\\Views\\AdminWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T09:36:54.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\ManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T22:16:43.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagerWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ManagerWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml.cs*",
+              "RelativeToolTip": "Factory Toy\\Views\\ManagerWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T23:22:50.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Factory Toy\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Services\\UserService.cs",
-              "RelativeToolTip": "Factory Toy\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Services\\UserService.cs*",
+              "RelativeToolTip": "Factory Toy\\Services\\UserService.cs*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T09:54:11.51Z",
               "EditorCaption": ""
@@ -218,67 +318,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Services\\ProductService.cs",
-              "RelativeToolTip": "Factory Toy\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T09:44:00.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderEditWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderEditWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrderEditWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderEditWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\OrderEditWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:28:56.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderItemsWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemsWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrderItemsWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemsWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\OrderItemsWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:29:43.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UsersWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\UsersWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UsersWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\UsersWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:27:43.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductEditWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductEditWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductEditWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductEditWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\ProductEditWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:27:03.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ProductsWindow.xaml",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductsWindow.xaml",
               "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductsWindow.xaml",
@@ -290,39 +329,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderItemEditWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemEditWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrderItemEditWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemEditWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\OrderItemEditWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:29:24.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserEditWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\UserEditWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml*",
-              "RelativeToolTip": "Factory Toy\\Views\\UserEditWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:28:12.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserEditWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\UserEditWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml.cs*",
-              "RelativeToolTip": "Factory Toy\\Views\\UserEditWindow.xaml.cs*",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAswHoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "OrdersWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrdersWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrdersWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrdersWindow.xaml.cs",
+              "RelativeToolTip": "Factory Toy\\Views\\OrdersWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T00:31:51.8Z",
+              "WhenOpened": "2026-02-19T00:49:19.619Z",
               "EditorCaption": ""
             },
             {
@@ -339,32 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductionManagerWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductionManagerWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\ProductionManagerWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:25:45.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductionManagerWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductionManagerWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductionManagerWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\ProductionManagerWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T09:38:23.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 22,
               "Title": "ProductEditWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductEditWindow.xaml.cs",
               "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductEditWindow.xaml.cs",
@@ -372,37 +362,35 @@
               "RelativeToolTip": "Factory Toy\\Views\\ProductEditWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T00:30:44.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ManagerWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\ManagerWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\ManagerWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T23:22:50.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T00:30:44.453Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "ManagerWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\ManagerWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ManagerWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\ManagerWindow.xaml",
+              "Title": "OrderEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderEditWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrderEditWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderEditWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\OrderEditWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T22:16:43.326Z",
+              "WhenOpened": "2026-02-18T23:28:56.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Category.cs",
+              "RelativeToolTip": "Factory Toy\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T10:05:45.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\User.cs",
               "RelativeDocumentMoniker": "Factory Toy\\Models\\User.cs",
@@ -410,38 +398,72 @@
               "RelativeToolTip": "Factory Toy\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T21:25:05.864Z",
+              "WhenOpened": "2026-02-18T21:25:05.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\UserEditWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\UserEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T23:28:12.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UsersWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\UsersWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UsersWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\UsersWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T23:27:43.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Role.cs",
+              "RelativeToolTip": "Factory Toy\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T10:09:39.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductEditWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductEditWindow.xaml",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\ProductEditWindow.xaml",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ProductEditWindow.xaml",
+              "RelativeToolTip": "Factory Toy\\Views\\ProductEditWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-18T23:27:03.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "ClientWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\ClientWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\ClientWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Title": "UserEditWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Views\\UserEditWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\UserEditWindow.xaml.cs",
+              "RelativeToolTip": "Factory Toy\\Views\\UserEditWindow.xaml.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswHoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T09:37:23.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T00:31:51.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AdminWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\AdminWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\AdminWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T09:36:54.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Factory Toy\\Models\\Product.cs",
@@ -449,57 +471,19 @@
               "RelativeToolTip": "Factory Toy\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T21:25:16.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OrderItemEditWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemEditWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrderItemEditWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemEditWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\OrderItemEditWindow.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAlwEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T00:31:24.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ClientWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\ClientWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\ClientWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\ClientWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T23:24:39.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-18T21:25:16.602Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "AdminWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\AdminWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\AdminWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\AdminWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T22:16:33.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml",
-              "RelativeToolTip": "Factory Toy\\Views\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-18T21:27:16.212Z",
-              "EditorCaption": ""
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Factory Toy\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Services\\ProductService.cs",
+              "RelativeToolTip": "Factory Toy\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T09:44:00.335Z"
             },
             {
               "$type": "Document",
@@ -515,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Factory Toy\\Models\\OrderItem.cs",
@@ -527,31 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "OrderItemsWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemsWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrderItemsWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrderItemsWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\OrderItemsWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T00:45:03.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OrdersWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrdersWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\OrdersWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\OrdersWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\OrdersWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T00:49:19.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\App.xaml",
               "RelativeDocumentMoniker": "Factory Toy\\App.xaml",
@@ -563,19 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Factory Toy\\Views\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Views\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "Factory Toy\\Views\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T21:27:39.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "OrderItemsWindow.g.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\obj\\Debug\\Views\\OrderItemsWindow.g.cs",
               "RelativeDocumentMoniker": "Factory Toy\\obj\\Debug\\Views\\OrderItemsWindow.g.cs",
@@ -587,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Factory Toy\\Models\\Order.cs",
@@ -599,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 32,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Factory Toy\\ProductRepository.cs",
@@ -611,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 34,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\AuthService.cs",
               "RelativeDocumentMoniker": "Factory Toy\\AuthService.cs",
@@ -623,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 35,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\Database.cs",
               "RelativeDocumentMoniker": "Factory Toy\\Database.cs",
@@ -635,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 33,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\packages.config",
               "RelativeDocumentMoniker": "Factory Toy\\packages.config",
@@ -647,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\App.config",
               "RelativeDocumentMoniker": "Factory Toy\\App.config",
@@ -659,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 36,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Factory Toy\\MainWindow.xaml",
@@ -670,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 37,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\velts\\source\\repos\\Factory Toy\\Factory Toy\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Factory Toy\\MainWindow.xaml.cs",

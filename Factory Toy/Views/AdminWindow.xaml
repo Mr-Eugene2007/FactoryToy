@@ -31,10 +31,6 @@
                     Margin="0 0 0 10"
                     Click="Users_Click"/>
 
-            <Button Content="Позиции заказа"
-                    Height="40"
-                    Margin="0 0 0 20"
-                    Click="OrderItems_Click"/>
 
             <!-- Кнопка выхода -->
             <Button Content="Выйти"

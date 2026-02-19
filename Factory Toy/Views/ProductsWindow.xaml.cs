@@ -6,10 +6,40 @@ namespace Factory_Toy.Views
 {
     public partial class ProductsWindow : Window
     {
+        private User _currentUser;
+
+        // Конструктор для XAML-дизайнера и на случай ошибочного вызова
         public ProductsWindow()
         {
             InitializeComponent();
+
+            // Если пользователь не передан — скрываем кнопки полностью
+            AddButton.Visibility = Visibility.Collapsed;
+            EditButton.Visibility = Visibility.Collapsed;
+            DeleteButton.Visibility = Visibility.Collapsed;
+
             LoadData();
+        }
+
+        // Основной конструктор
+        public ProductsWindow(User currentUser)
+        {
+            InitializeComponent();
+            _currentUser = currentUser;
+
+            ApplyRoleRestrictions();
+            LoadData();
+        }
+
+        private void ApplyRoleRestrictions()
+        {
+            // Клиент (ID = 4) не может редактировать товары
+            if (_currentUser != null && _currentUser.IdRole == 4)
+            {
+                AddButton.Visibility = Visibility.Collapsed;
+                EditButton.Visibility = Visibility.Collapsed;
+                DeleteButton.Visibility = Visibility.Collapsed;
+            }
         }
 
         private void LoadData()

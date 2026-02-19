@@ -13,10 +13,7 @@ namespace Factory_Toy.Views
 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-            string login = LoginBox.Text;
-            string password = PasswordBox.Password;
-
-            var user = AuthService.Login(login, password);
+            var user = UserService.Auth(LoginBox.Text, PasswordBox.Password);
 
             if (user == null)
             {
@@ -24,24 +21,22 @@ namespace Factory_Toy.Views
                 return;
             }
 
-            Window next;
-
             switch (user.IdRole)
             {
                 case 1:
-                    next = new AdminWindow();
+                    new AdminWindow(user).ShowDialog();
                     break;
 
                 case 2:
-                    next = new ManagerWindow();
+                    new ManagerWindow(user).ShowDialog();
                     break;
 
                 case 3:
-                    next = new ProductionManagerWindow();
+                    new ProductionManagerWindow(user).ShowDialog();
                     break;
 
                 case 4:
-                    next = new ClientWindow();
+                    new ClientWindow(user).ShowDialog();
                     break;
 
                 default:
@@ -49,8 +44,7 @@ namespace Factory_Toy.Views
                     return;
             }
 
-            next.Show();
-            this.Close();
+            Close();
         }
     }
 }

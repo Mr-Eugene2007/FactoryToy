@@ -34,13 +34,11 @@
 
                     <DataGridTextColumn Header="Дата заказа" Binding="{Binding OrderDate}" Width="150"/>
 
-                    <DataGridTextColumn Header="ID клиента" Binding="{Binding IdUser}" Width="100"/>
-
                     <DataGridTextColumn Header="Сумма" Binding="{Binding TotalAmount}" Width="120"/>
 
                     <DataGridTextColumn Header="Предоплата" Binding="{Binding Prepayment}" Width="120"/>
 
-                    <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="120"/>
+                    <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="Auto"/>
 
                     <DataGridTextColumn Header="Желаемая дата" Binding="{Binding DesiredDate}" Width="150"/>
 

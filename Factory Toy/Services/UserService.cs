@@ -78,5 +78,29 @@ namespace Factory_Toy.Services
                 conn.Execute("DELETE FROM users WHERE iduser = @id", new { id });
             }
         }
+
+        public static User Auth(string login, string password)
+        {
+            using (var conn = Database.GetConnection())
+            {
+                conn.Open();
+                return conn.QueryFirstOrDefault<User>(
+                    @"SELECT 
+                u.iduser,
+                u.login,
+                u.password,
+                u.fullname,
+                u.email,
+                u.phone,
+                u.idrole,
+                r.rolename AS RoleName
+              FROM users u
+              LEFT JOIN roles r ON u.idrole = r.idrole
+              WHERE u.login = @login AND u.password = @password",
+                    new { login, password }
+                );
+            }
+        }
+
     }
 }

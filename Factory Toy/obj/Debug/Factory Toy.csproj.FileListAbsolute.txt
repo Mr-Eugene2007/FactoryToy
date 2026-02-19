@@ -61,10 +61,6 @@ C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UserEditWind
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UsersWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UserEditWindow.g.cs
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\UsersWindow.g.cs
-C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemEditWindow.baml
-C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemsWindow.baml
-C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemEditWindow.g.cs
-C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\OrderItemsWindow.g.cs
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ClientWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ProductionManagerWindow.baml
 C:\Users\velts\source\repos\Factory Toy\Factory Toy\obj\Debug\Views\ClientWindow.g.cs

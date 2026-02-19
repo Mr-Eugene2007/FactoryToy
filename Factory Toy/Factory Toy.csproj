@@ -129,12 +129,6 @@
     <Compile Include="Views\OrderEditWindow.xaml.cs">
       <DependentUpon>OrderEditWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\OrderItemEditWindow.xaml.cs">
-      <DependentUpon>OrderItemEditWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\OrderItemsWindow.xaml.cs">
-      <DependentUpon>OrderItemsWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\OrdersWindow.xaml.cs">
       <DependentUpon>OrdersWindow.xaml</DependentUpon>
     </Compile>
@@ -182,14 +176,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\OrderEditWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\OrderItemEditWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\OrderItemsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

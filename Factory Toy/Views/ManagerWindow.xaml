@@ -27,10 +27,6 @@
                     Margin="0 0 0 10"
                     Click="Orders_Click"/>
 
-            <Button Content="Позиции заказа"
-                    Height="40"
-                    Margin="0 0 0 10"
-                    Click="OrderItems_Click"/>
 
             <Button Content="Товары"
                     Height="40"

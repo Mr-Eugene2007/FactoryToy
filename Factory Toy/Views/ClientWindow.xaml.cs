@@ -1,18 +1,21 @@
-﻿using System.Windows;
+﻿using Factory_Toy.Models;
+using System.Windows;
 
 namespace Factory_Toy.Views
 {
     public partial class ClientWindow : Window
     {
-        public ClientWindow()
+        private User _currentUser;
+
+        public ClientWindow(User user)
         {
             InitializeComponent();
+            _currentUser = user;
         }
 
         private void Products_Click(object sender, RoutedEventArgs e)
         {
-            var win = new ProductsWindow();
-            win.ShowDialog();
+            new ProductsWindow(_currentUser).ShowDialog();
         }
 
         private void Orders_Click(object sender, RoutedEventArgs e)
