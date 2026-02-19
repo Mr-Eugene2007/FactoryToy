@@ -34,29 +34,42 @@
 
                                 <!-- Левая часть карточки -->
                                 <StackPanel>
-                                    <TextBlock Text="Заказ №{Binding IdOrder}"
-                                               FontSize="20"
-                                               FontWeight="Bold"
-                                               Foreground="#333"/>
 
-                                    <TextBlock Text="{Binding OrderDate, StringFormat='Дата: {0:dd.MM.yyyy}'}"
-                                               FontSize="14"
-                                               Foreground="#666"
-                                               Margin="0 5 0 0"/>
+                                    <!-- Номер заказа -->
+                                    <TextBlock FontSize="20"
+               FontWeight="Bold"
+               Foreground="#333">
+        <Run Text="№"/>
+        <Run Text="{Binding IdOrder}"/>
+                                    </TextBlock>
 
-                                    <TextBlock Text="{Binding Status, StringFormat='Статус: {0}'}"
-                                               FontSize="14"
-                                               Foreground="#666"
-                                               Margin="0 5 0 0"/>
+                                                        <!-- Дата -->
+                                                        <TextBlock Text="{Binding OrderDate, StringFormat='от {0:dd.MM.yyyy}'}"
+                                   FontSize="14"
+                                   Foreground="#666"
+                                   Margin="0 5 0 0"/>
 
-                                    <TextBlock Text="{Binding TotalAmount, StringFormat='Сумма: {0} ₽'}"
-                                               FontSize="16"
-                                               FontWeight="SemiBold"
-                                               Foreground="#444"
-                                               Margin="0 10 0 0"/>
+                                                        <!-- Статус -->
+                                                        <Border Background="#E0E0E0"
+                                CornerRadius="6"
+                                Padding="4 2"
+                                Margin="0 5 0 0"
+                                HorizontalAlignment="Left">
+                                                            <TextBlock Text="{Binding Status}"
+                                       FontSize="13"
+                                       Foreground="#444"/>
+                                                        </Border>
+
+                                                        <!-- Сумма -->
+                                                        <TextBlock Text="{Binding TotalAmount, StringFormat='Сумма: {0} ₽'}"
+                                   FontSize="16"
+                                   FontWeight="SemiBold"
+                                   Foreground="#444"
+                                   Margin="0 10 0 0"/>
+
                                 </StackPanel>
 
-                                
+
                             </Grid>
 
                         </Border>
